@@ -1,1 +1,13 @@
-/target
+# inspired by https://github.com/github/gitignore/blob/main/Rust.gitignore
+.vscode/
+
+debug/
+target/
+
+Cargo.lock
+
+**/*.rs.bk
+
+*.pdb
+
+.env
